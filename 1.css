@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0;}
+
+.xuong {
+    width: 39px;
+    height: 70px;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 40px;
+    left: 50%;
+    bottom: 2%;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: -20px;
+}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
+.khoittnho {
+    margin-bottom: 55px;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.khoittnho .tieudecap3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #e35855;
+}
+
+.khoittnho .motaquatrinh {
+    font-size: 13px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+span.dam {
+    font-family: segoe;
+    font-weight: bold;
+}
+
+.tieudeto h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.tieudeto h1:before {content: "";position: absolute;width: 100px;left: 50%;margin-left: -50px;bottom: 0;border-top: 1px solid #e9585f;height: 3px;border-bottom: 1px solid #e4555b;}
+
+.tt a.nuthire.btn.btn-primary {
+    width: 180px;
+    background: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.tt p {
+    font-size: 16px;
+    width: 200px;
+    margin: auto;
+    line-height: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.tt h2 {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+} 
+body,html{
+	width: 100%;
+	height: 100%;
+}
+a.nav-link{
+	font-family: segoe ui;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 0px 15px;
+}
+.mtren{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+.khoitt1{
+	width: 100%;
+	height: 100%;
+	background: #e9585f;
+}
+
+.khoitt1:before {content: "";position: absolute;top: 0;left: 0;width: 50%;height: 100%;background: #e4555b;}
+.tt img{
+	width: 124px;
+	height: 128px;
+	text-align: center;
+	/* border-radius: 50%; */
+	margin-bottom: 47px;
+}
+.tt{
+	position: relative;
+	padding-top: 14%;
+}
+
+.xuong:after {content: "";width: 4px;height: 8px;background: white;position: absolute;top: 23%;left: 50%;margin-left: -2px;}
+.tieudeto{
+	margin-top: 120px;
+	margin-bottom: 60px;
+}
+@media (max-width :576px){
+	*{}
+
+h1 {}
+	a.navbar-brand{
+		display: block;
+		text-align: center;
+	}
+	li.nav-item{
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+	.tt img{
+		margin-top: 65px;
+		width: 156px;
+	}
+}
